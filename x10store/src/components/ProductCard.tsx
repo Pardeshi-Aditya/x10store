@@ -31,7 +31,7 @@ const ProductCard = ({ title, desc, children }: ProductCardProps) => {
             </CardContent>
             <CardFooter className="flex justify-between">
                 <Button variant="outline" className='hover:bg-green-600 hover:text-[#fff]'>Buy Now</Button>
-                <Button variant="ghost" className={liked ? 'hover:bg-[#ff4d4d] hover:text-[#fff]' : 'bg-[#ff4d4d] text-[#fff]'} onClick={handleLike}>
+                <Button variant="ghost" className={!liked ? 'hover:bg-[#ff4d4d] hover:text-[#fff]' : 'bg-[#ff4d4d] text-[#fff]'} onClick={handleLike}>
                     <FaRegHeart size='24px' />
                 </Button>
             </CardFooter>
