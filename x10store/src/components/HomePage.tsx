@@ -21,19 +21,19 @@ const HomePage = () => {
                             <p className="text-2xl">
                                 "As an innovative startup, we're currently in our market validation phase. We're actively collecting expressions of interest from potential customers like you. Once we've gathered sufficient interest, we'll begin accepting formal orders. Please note that the process from confirming your interest to receiving your delivered product typically takes 6-8 weeks."
                             </p>
-                            <div className="text-center my-16">
-                                <Dialog>
-                                    <DialogTrigger asChild>
-                                        <Button
-                                            className="px-8 py-4 text-xl bg-white hover:bg-blue-600 text-blue-900 hover:text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                                            onClick={() => setLoader(true)}
-                                        >
-                                            Express Your Interest
-                                        </Button>
-                                    </DialogTrigger>
-                                    <ContactUs loader={loader} setLoader={setLoader} />
-                                </Dialog>
                             </div>
+                        <div className="text-center my-16">
+                            <Dialog>
+                                <DialogTrigger asChild>
+                                    <Button
+                                        className="px-8 py-4 text-xl bg-white hover:bg-blue-600 text-blue-900 hover:text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                                        onClick={() => setLoader(true)}
+                                    >
+                                        Express Your Interest
+                                    </Button>
+                                </DialogTrigger>
+                                <ContactUs loader={loader} setLoader={setLoader} />
+                            </Dialog>
                         </div>
                     </section>
                 </main>
