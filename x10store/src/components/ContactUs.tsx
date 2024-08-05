@@ -1,7 +1,7 @@
 
 import { DialogContent, DialogHeader, DialogTitle } from '@/ui/dialog'
 
-const ContactUs = ({ loader, setLoader }: { loader: boolean, setLoader: any }) => {
+const ContactUs = ({ loader, setLoader }: { loader: boolean, setLoader: React.Dispatch<React.SetStateAction<boolean>> }) => {
 
     return (
         <DialogContent className="sm:max-w-[600px] sm:max-h-[80%] overflow-y-scroll">
