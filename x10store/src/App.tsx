@@ -4,6 +4,7 @@ import { Theme } from '@radix-ui/themes';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ErrorPage from './components/ErrorPage';
+import Model from './components/Model';
 
 function App() {
   return (
@@ -19,11 +20,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/newpage" element={
-                <div className='flex justify-center items-center text-9xl'>
-                  Here's new page
-                </div>
-              } />
+              <Route path="/model" element={<Model />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
           </Router>
