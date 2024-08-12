@@ -19,6 +19,14 @@ const ContactUs = ({ loader, setLoader }: { loader: boolean, setLoader: React.Di
             <div className='flex justify-center items-center' onLoad={() => setLoader(false)}>
                 <iframe src="https://forms.gle/Y5bTVokUdU9ov5tu9" width="500px" height="800px" />
             </div>
+            <div className='flex gap-4 items-center justify-center bg-[#f6f6f6] text-[#fff] rounded-lg p-4'>
+                <div className='rounded-md font-semibold tracking-widest bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 transition duration-200'>
+                    Interest Expressed : 108
+                </div>
+                <div className='rounded-md font-semibold tracking-widest bg-green-500 hover:bg-green-600 text-white py-2 px-4 transition duration-200'>
+                    Orders Placed : 64
+                </div>
+            </div>
         </DialogContent>
     )
 }
