@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
                     </div>
                     <div>
                         <h5 className="text-lg font-semibold mb-4">Contact Us</h5>
-                        <p className="text-md mb-2">(+91) 935-671-8688</p>
+                        <p className="select-text text-md mb-2">(+91) 935-671-8688</p>
                         <p className="text-md mb-2">Monday to Saturday, 9am - 6pm</p>
                         {/* <form>
                             <input type="email" placeholder="Your email" className="p-2 rounded-md w-full mb-2" />

@@ -15,7 +15,7 @@ const ContainerModels = () => {
   const navigate = useNavigate()
   return (
 
-    <div className="min-h-screen bg-gradient-to-br from-sky-100 to-indigo-100 p-8">
+    <div className="select-none min-h-screen bg-gradient-to-br from-sky-100 to-indigo-100 p-8">
       <button
         onClick={() => navigate("/")}
         className='bg-black text-white w-fit px-4 py-2 rounded-md font-semibold'>Back</button>

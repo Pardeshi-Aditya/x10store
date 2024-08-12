@@ -138,7 +138,7 @@ const HomePage = () => {
     }
 
     return (
-        <div className="min-h-screen bg-[#a7cefe] flex flex-col">
+        <div className="select-none min-h-screen bg-[#a7cefe] flex flex-col">
             {/* Header Section */}
             <div className='flex items-start justify-center w-full h-fit overflow-hidden'>
                 {/* <div className='flex justify-center items-center w-full max-w-6xl'> */}
