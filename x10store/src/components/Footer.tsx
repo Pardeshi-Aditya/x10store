@@ -19,7 +19,7 @@ const Footer = (props: Props) => {
                     <div>
                         <h5 className="text-lg font-semibold mb-4">Support</h5>
                         <ul className="space-y-2">
-                            <li><a href="#" className="hover:underline">Contact Us</a></li>
+                            {/* <li><a href="#" className="hover:underline">Contact Us</a></li> */}
                             <li><a href="#" className="hover:underline">FAQ</a></li>
                             <li><a href="#" className="hover:underline">Returns</a></li>
                             <li><a href="#" className="hover:underline">Shipping Info</a></li>
@@ -35,12 +35,13 @@ const Footer = (props: Props) => {
                         </ul>
                     </div>
                     <div>
-                        <h5 className="text-lg font-semibold mb-4">Newsletter</h5>
-                        <p className="text-sm mb-4">Subscribe to our newsletter for the latest updates.</p>
-                        <form>
+                        <h5 className="text-lg font-semibold mb-4">Contact Us</h5>
+                        <p className="text-md mb-2">(+91) 935-671-8688</p>
+                        <p className="text-md mb-2">Monday to Saturday, 9am - 6pm</p>
+                        {/* <form>
                             <input type="email" placeholder="Your email" className="p-2 rounded-md w-full mb-2" />
                             <button type="submit" className="bg-blue-700 text-white py-2 px-4 rounded-md hover:bg-blue-600">Subscribe</button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </div>
