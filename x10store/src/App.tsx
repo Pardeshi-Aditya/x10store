@@ -4,6 +4,8 @@ import { Theme } from '@radix-ui/themes';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import ErrorPage from './components/ErrorPage';
+import LunchboxModels from './components/LunchboxModels';
+import ContainerModels from './components/ContainerModels';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="*" element={<ErrorPage />} />
+              <Route path="/lunchbox" element={<LunchboxModels />} />
+              <Route path="/container" element={<ContainerModels />} />
             </Routes>
           </Router>
         </FrappeProvider>
