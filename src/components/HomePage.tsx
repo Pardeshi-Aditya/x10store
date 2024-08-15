@@ -21,13 +21,21 @@ const HomePage = () => {
     return (
         <div className="select-none min-h-screen bg-[#a7cefe] flex flex-col">
             {/* Header Section */}
-            <div className='flex items-center justify-center w-full h-auto overflow-hidden py-4'>
+            {/* <div className='flex items-center justify-center w-full h-auto overflow-hidden py-4'>
                 <video
-                    src="/logo_latest.mp4"
+                    src="/logo.gif"
                     autoPlay
                     loop
                     muted
                     className='w-full max-w-md h-auto object-cover'
+                />
+            </div> */}
+            <div className='flex items-center justify-center w-full h-auto overflow-hidden py-4'>
+                <img
+                    src="/logo.gif"
+                    alt="Logo Animation"
+                    className='w-full max-w-md h-auto object-cover'
+                    loading="lazy"
                 />
             </div>
 
