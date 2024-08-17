@@ -2,12 +2,9 @@ import { useNavigate } from 'react-router-dom';
 import GLBViewer from './GLBViewer';
 
 const models = [
-  // { path: "/360-base.glb", name: "Base" },
-  // { path: "/360-casing.glb", name: "Casing" },
   { path: "/360-cbase.glb", name: "Base" },
   { path: "/360-cextender.glb", name: "Extender" },
-  // { path: "/360-container.glb", name: "Container" },
-  { path: "/360-cseperator.glb", name: "Separator" },
+  { path: "/360-cseperator.glb", name: "Lid" },
 ];
 
 const ContainerModels = () => {
