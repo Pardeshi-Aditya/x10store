@@ -31,7 +31,7 @@ const Footer = (props: Props) => {
                             <li><a href="#" className="hover:underline">Facebook</a></li>
                             <li><a href="#" className="hover:underline">Twitter</a></li>
                             <li><a href="#" className="hover:underline">Instagram</a></li>
-                            <li><a href="#" className="hover:underline">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/company/x10-store-packaging-pvt-ltd/" className="hover:underline">LinkedIn</a></li>
                         </ul>
                     </div>
                     <div>
